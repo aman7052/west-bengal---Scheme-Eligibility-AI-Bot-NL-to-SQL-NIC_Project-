@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_community.sql_database import SQLDatabase
+from langchain_community.utilities import SQLDatabase
 from langchain_ollama import OllamaLLM
 from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
 from langchain_core.prompts import ChatPromptTemplate
