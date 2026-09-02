@@ -1,0 +1,16 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Streamlit
+.streamlit/
+
+# Database dumps / temp files
+*.sqlite3
+*.log
