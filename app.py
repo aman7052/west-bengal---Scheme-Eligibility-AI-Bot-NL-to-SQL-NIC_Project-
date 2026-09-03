@@ -52,7 +52,7 @@ st.markdown("""
 # 1. DATABASE CONNECTION (Cached to run only once)
 @st.cache_resource
 def get_db_connection():
-    postgres_uri = "postgresql+psycopg2://postgres:705219@localhost:5432/demodb"
+    postgres_uri = "postgresql+psycopg2://postgres:945234@localhost:5432/postgres"
     db = SQLDatabase.from_uri(postgres_uri, include_tables=['wb_schemes'])
     return db
 

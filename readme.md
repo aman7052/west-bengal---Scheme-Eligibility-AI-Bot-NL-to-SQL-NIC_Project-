@@ -167,6 +167,7 @@ CREATE TABLE wb_schemes (
 ├── test1.py                # 🧪 Direct Ollama + psycopg2 parametric SQL tester
 ├── test2.py                # 🧪 LangChain create_sql_query_chain testing script
 ├── database_backup.sql     # 💾 SQL Schema definition and seed data
+├── requirements.txt        # 📦 Project dependencies and library versions
 ├── readme.md               # 📖 Comprehensive project documentation
 └── .gitignore              # 🚫 Git ignore rules for environment and cache files
 ```
@@ -209,7 +210,7 @@ source venv/bin/activate
 
 ### 3. Install Dependencies
 ```bash
-pip install streamlit langchain langchain-community langchain-core langchain-ollama ollama psycopg2-binary sqlalchemy
+pip install -r requirements.txt
 ```
 
 ### 4. Configure PostgreSQL Database

@@ -1,0 +1,13 @@
+# Web UI Framework
+streamlit>=1.30.0
+
+# LangChain Ecosystem & LLM Orchestration
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-ollama>=0.1.0
+ollama>=0.2.0
+
+# Database & SQL Driver
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
